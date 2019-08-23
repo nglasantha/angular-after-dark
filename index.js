@@ -7,7 +7,7 @@ const app = express();
 app.use('/vanila-js-css', express.static('vanila-js-css'))
 
 app.get('/', (req, res) => {
-  res.status(200).send('Hello, world!');
+  res.status(200).send('Hello, Angular After Dark');
 });
 
 if (module === require.main) {
