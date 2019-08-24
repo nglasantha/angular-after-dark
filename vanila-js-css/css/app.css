@@ -117,6 +117,46 @@ input {
     text-align: center
 }
 
+.link {
+    cursor: pointer;
+}
+
+.link_text {
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 2px 5px;
+}
+
+.link_text:hover {
+    font-weight: 500px;
+    border: 1px solid rgb(63, 54, 54);
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.button {
+    width: 200px;
+    border-radius : 6px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #000000;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button:hover {
+    border: 1px solid #1d1717;
+    color: #f8f8f8;
+}
+
+.success {
+    background-color: green;
+}
 
 
 @media screen and (max-width: 600px) {
