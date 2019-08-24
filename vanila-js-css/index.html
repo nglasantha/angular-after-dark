@@ -3,12 +3,150 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Welcome Angular After Dark !!!</title>
-    <link rel="shortcut icon"  type="image/x-icon" href="favicon_io/favicon.ico"/>
+    <title>Vanilla JS</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon_io/favicon.ico?v=3" />
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    Content of the document......
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li><a class="active" href="#search">Search</a></li>
+                <li><a href="#admin">Admin</a></li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="column col-4">
+                <div class="filter-section brand">
+                    <h4 class="filter-section-header">Brand</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="apple" value="apple"> Apple
+                        </li>
+                        <li>
+                            <input type="checkbox" name="hp" value="hp"> HP
+                        </li>
+                        <li>
+                            <input type="checkbox" name="acer" value="acer"> Acer
+                        </li>
+                    </ul>
+                </div>
+                <div class="filter-section cpu">
+                    <h4 class="filter-section-header">CPU</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="i7" value="i7"> i7
+                        </li>
+                        <li>
+                            <input type="checkbox" name="i5" value="i5"> i5
+                        </li>
+                        <li>
+                            <input type="checkbox" name="i3" value="i3"> i3
+                        </li>
+                    </ul>
+                </div>
+                <div class="filter-section hard-drive">
+                    <h4 class="filter-section-header">Hard Drive</h4>
+                    <div><input type="number" placeholder="Min" id="hard_drive_min" /> to
+                        <input type="number" placeholder="Max" id="hard_drive_max" />TB</div>
+                </div>
+
+                <div class="filter-section price">
+                    <h4 class="filter-section-header">Pice</h4>
+                    <input type="number" placeholder="Min" id="price_min" /> to
+                    <input type="number" placeholder="Max" id="price_max" />$
+                </div>
+            </div>
+            <div class="column col-8">
+                <div class="data-header">
+                    <div class="item-count">38 Items</div>
+                    <div class="sorting-bar">Sort By
+                        <select>
+                            <option value="price_up">Price &uarr;</option>
+                            <option value="saab">Price &darr;</option>
+                        </select>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="tag-cloud">
+                    <span class="chip">CPU : i7</span>
+                    <span class="chip">Ram 2 - 8GB</span>
+                    <span class="chip">HDD 1-2 TB</span>
+                    <span class="chip">Apple, HP, Acer</span>
+                    <span> <a>Clear all</a></span>
+                </div>
+                <div class="data">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Model</th>
+                                <th>Specs</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>HP Probook 1</td>
+                                <td>Intel i7 /4GB /1TB HDD/ Black</td>
+                                <td class="price">$699</td>
+                            </tr>
+                            <tr>
+                                <td>HP Probook 1</td>
+                                <td>Intel i7 /4GB /1TB HDD/ Black</td>
+                                <td class="price">$699</td>
+                            </tr>
+                            <tr>
+                                <td>HP Probook 1</td>
+                                <td>Intel i7 /4GB /1TB HDD/ Black</td>
+                                <td class="price">$699</td>
+                            </tr>
+                            <tr>
+                                <td>HP Probook 1</td>
+                                <td>Intel i7 /4GB /1TB HDD/ Black</td>
+                                <td class="price">$699</td>
+                            </tr>
+                            <tr>
+                                <td>HP Probook 1</td>
+                                <td>Intel i7 /4GB /1TB HDD/ Black</td>
+                                <td class="price">$699</td>
+                            </tr>
+                            <tr>
+                                <td>HP Probook 1</td>
+                                <td>Intel i7 /4GB /1TB HDD/ Black</td>
+                                <td class="price">$699</td>
+                            </tr>
+                            <tr>
+                                <td>HP Probook 1</td>
+                                <td>Intel i7 /4GB /1TB HDD/ Black</td>
+                                <td class="price">$699</td>
+                            </tr>
+                            <tr>
+                                <td>HP Probook 1</td>
+                                <td>Intel i7 /4GB /1TB HDD/ Black</td>
+                                <td class="price">$699</td>
+                            </tr>
+
+                        <tfoot>
+                            <tr>
+                                <td colspan="3"><< Prev 1 2 3 Next >></td>
+                            </tr>
+                        </tfoot>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="copy">Copyright © 2019 angularafterdark.com. All Rights Reserved.</div>
+        </footer>
+    </div>
+
+
 </body>
 
 </html>

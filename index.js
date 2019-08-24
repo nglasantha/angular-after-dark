@@ -5,8 +5,9 @@ const express = require('express');
 const app = express();
 
 app.use('/vanila-js-css', express.static('vanila-js-css'))
+app.use('/', express.static('landing'))
 
-app.get('/', (req, res) => {
+app.get('/test', (req, res) => {
   res.status(200).send('Hello, Angular After Dark');
 });
 
