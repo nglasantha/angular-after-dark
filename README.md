@@ -34,6 +34,6 @@ https://angular.io/
 
 https://rxjs-dev.firebaseapp.com/
 
-# Step 3 : Use NGRX
+# Step 3 : Use NgRx
 
 https://ngrx.io/
