@@ -1,4 +1,4 @@
 # angular-after-dark
 
-#DEMO
+# DEMO
  http://angularafterdark.com
